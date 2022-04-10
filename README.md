@@ -1,4 +1,4 @@
-# Sixt Coding Challenge
+# Sixt Coding Challenge [![sixt-coding actions](https://github.com/rajeevradhakrishnan/sixt-coding-challenge/actions/workflows/sixt-coding-actions.yml/badge.svg?branch=development)](https://github.com/rajeevradhakrishnan/sixt-coding-challenge/actions/workflows/sixt-coding-actions.yml)
 
 Sixt Coding Challenge was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
