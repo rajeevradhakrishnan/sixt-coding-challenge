@@ -4,16 +4,13 @@ Sixt Coding Challenge was bootstrapped with [Create React App](https://github.co
 
 ## See demo
 
-[![](https://d15rmmnqcyum75.cloudfront.net)](https://d15rmmnqcyum75.cloudfront.net)
+[https://d15rmmnqcyum75.cloudfront.net](https://d15rmmnqcyum75.cloudfront.net)
 
 ## Setup
 
-- [React](https://reactjs.org/)
-- [Redux Toolkit](https://redux-toolkit.js.org/)
-  Redux Toolkit provides a set of tools for managing state in your React application. The underlying package is [react-redux](https://react-redux.js.org/). It ease the creation of Redux store and connect components to the store.
+- [Redux Toolkit](https://redux-toolkit.js.org/) provides a set of tools for managing state in your React application. The underlying package is [react-redux](https://react-redux.js.org/). It ease the creation of Redux store and connect components to the store.
 - [Material UI](https://mui.com/)
-  The Material UI library is used to create the UI.
-  - [emotion](https://emotion.sh/docs/introduction) dependency - MUI is using emotion as a styling engine by default
+  The Material UI library is used to create the UI. [emotion](https://emotion.sh/docs/introduction) dependency - MUI is using emotion as a styling engine by default
 - [Axios](https://github.com/axios/axios)
   The Axios library is used to make HTTP requests.
 
