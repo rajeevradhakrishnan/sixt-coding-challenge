@@ -98,7 +98,10 @@ describe("Test Offer page", () => {
 
     // Waiting for the offers page to be rendered
     await waitFor(
-      () => {
+      async () => {
+        // Delaying for the images to be loaded
+        const sevenSeconds = 7000;
+        await new Promise((resolve) => setTimeout(resolve, sevenSeconds));
         // The rendered component should have the above offer data
         const image = getByAltText(name);
 
