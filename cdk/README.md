@@ -5,20 +5,20 @@ The [AWS Codebuild](https://aws.amazon.com/codebuild/) is used to build the app 
 
 ## About the setup
 
-    - Github webhhok notifies the [AWS Codebuild](https://aws.amazon.com/codebuild/) about changes in the source code.
-    - The [AWS Codebuild](https://aws.amazon.com/codebuild/) creates a container and install the dependencies.
-    - The container is then run the tests by command `npm run test`.
-    - The container is then run the build by command `npm run build`.
-    - The container is then move the build to the S3 bucket.
-    - The container is then invalidate the Cloudfront cache.
+- Github webhhok notifies the [AWS Codebuild](https://aws.amazon.com/codebuild/) about changes in the source code.
+- The [AWS Codebuild](https://aws.amazon.com/codebuild/) creates a container and install the dependencies.
+- The container is then run the tests by command `npm run test`.
+- The container is then run the build by command `npm run build`.
+- The container is then move the build to the S3 bucket.
+- The container is then invalidate the Cloudfront cache.
 
 ## AWS Resources using
 
-    - [AWS CDK](https://aws.amazon.com/cdk/)
-    - [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
-    - [AWS Codebuild](https://aws.amazon.com/codebuild/)
-    - [AWS S3](https://aws.amazon.com/s3/)
-    - [AWS Cloudfront](https://aws.amazon.com/cloudfront/)
+- [AWS CDK](https://aws.amazon.com/cdk/)
+- [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+- [AWS Codebuild](https://aws.amazon.com/codebuild/)
+- [AWS S3](https://aws.amazon.com/s3/)
+- [AWS Cloudfront](https://aws.amazon.com/cloudfront/)
 
 ## Useful commands
 
