@@ -1,7 +1,7 @@
 name: sixt-coding-actions
 on: [push]
 jobs:
-  check-bats-version:
+  run-sixt-coding-app-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
