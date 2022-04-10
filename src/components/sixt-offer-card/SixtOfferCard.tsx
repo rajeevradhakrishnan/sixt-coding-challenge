@@ -7,12 +7,12 @@ import {
   CardMedia,
 } from "@mui/material";
 import { IOffer } from "../../models/OffersModel";
-import { DEFAULT_OFFER_IMAGE } from "../../utils/constants";
+import { OFFER_FALLBACK_IMAGE } from "../../utils/constants";
 import SixtOfferCardStyle from "./style";
 
 const SixtOfferCard = ({ imageUrl, name, price, currency }: IOffer) => {
   const handleImageError = (e: any) => {
-    e.target.src = DEFAULT_OFFER_IMAGE;
+    e.target.src = OFFER_FALLBACK_IMAGE;
   };
 
   return (

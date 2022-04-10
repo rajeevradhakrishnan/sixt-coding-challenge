@@ -1,4 +1,4 @@
-import { DEFAULT_OFFER_IMAGE } from "../utils/constants";
+import { OFFER_FALLBACK_IMAGE } from "../utils/constants";
 
 export interface IOffer {
   id: string;
@@ -20,7 +20,7 @@ export const offersModel = (offer: IOfferRawData) => {
   const imageUrl =
     offer.splashImages !== undefined
       ? offer.splashImages[0].url
-      : DEFAULT_OFFER_IMAGE;
+      : OFFER_FALLBACK_IMAGE;
 
   return {
     id: offer.id,
