@@ -24,6 +24,14 @@ Modify the CDK configs from `lib/sixt-cdk-stack.ts`
 - [AWS S3](https://aws.amazon.com/s3/)
 - [AWS Cloudfront](https://aws.amazon.com/cloudfront/)
 
+## Create a file `.env` under source directory
+
+```
+GITHUB_OWNER=''
+GITHUB_REPO=''
+GITHUB_BRANCH=''
+```
+
 ## Useful commands
 
 - `npm install` install the CDK Toolkit
