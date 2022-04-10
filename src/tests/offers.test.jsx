@@ -97,14 +97,17 @@ describe("Test Offer page", () => {
     const { name, currency, price, imageUrl } = offer;
 
     // Waiting for the offers page to be rendered
-    await waitFor(() => {
-      // The rendered component should have the above offer data
-      const image = getByAltText(name);
+    await waitFor(
+      () => {
+        // The rendered component should have the above offer data
+        const image = getByAltText(name);
 
-      expect(getByText(name)).toBeInTheDocument();
-      expect(getByText(currency + " " + price)).toBeInTheDocument();
-      expect(getByAltText(name)).toBeInTheDocument();
-      expect(image).toHaveAttribute("src", imageUrl);
-    });
+        expect(getByText(name)).toBeInTheDocument();
+        expect(getByText(currency + " " + price)).toBeInTheDocument();
+        expect(getByAltText(name)).toBeInTheDocument();
+        expect(image).toHaveAttribute("src", imageUrl);
+      },
+      { timeout: 100000 }
+    );
   });
 });
