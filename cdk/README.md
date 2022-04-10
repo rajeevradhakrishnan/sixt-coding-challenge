@@ -3,6 +3,10 @@
 Deploy the Sixt coding challenge app to AWS Cloudfront. The app is hosted on a S3 bucket.
 The [AWS Codebuild](https://aws.amazon.com/codebuild/) is used to build the app and deploy it to AWS Cloudfront.
 
+## Development
+
+Modify the CDK configs from `lib/sixt-cdk-stack.ts`
+
 ## About the setup
 
 - Github webhhok notifies the [AWS Codebuild](https://aws.amazon.com/codebuild/) about changes in the source code.
