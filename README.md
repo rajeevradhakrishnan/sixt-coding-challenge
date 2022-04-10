@@ -14,6 +14,11 @@ Sixt Coding Challenge was bootstrapped with [Create React App](https://github.co
 - [Axios](https://github.com/axios/axios)
   The Axios library is used to make HTTP requests.
 
+## NOTE !!!:
+
+The given API is not working due to CORS issue.
+But I proxied the API to another server. The proxy is [https://oga6zk34gl.execute-api.ap-south-1.amazonaws.com/dev/offers](https://oga6zk34gl.execute-api.ap-south-1.amazonaws.com/dev/offers)
+
 ## Available Scripts
 
 In the project directory, you can run:
