@@ -1,9 +1,12 @@
+// sm is small screen & xs is extra small screen
+const cardWidthAndHeight = { sm: 300, xs: 400 };
+
 const SixtOfferCardStyle = {
   card: {
-    maxWidth: 300,
-    minWidth: 300,
-    minHeight: 300,
+    minWidth: cardWidthAndHeight,
+    minHeight: cardWidthAndHeight,
     borderRadius: 0,
+    maxWidth: cardWidthAndHeight,
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
